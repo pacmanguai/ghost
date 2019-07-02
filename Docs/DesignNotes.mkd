@@ -1,4 +1,4 @@
-#Design Notes
+# Design Notes
 
 - For simplicity, I have used a .net framework template for the project.
 
