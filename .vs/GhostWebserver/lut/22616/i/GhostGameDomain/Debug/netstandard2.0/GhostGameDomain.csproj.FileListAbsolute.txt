@@ -1,0 +1,7 @@
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\b\GhostGameDomain\Debug\netstandard2.0\GhostGameDomain.deps.json
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\b\GhostGameDomain\Debug\netstandard2.0\GhostGameDomain.dll
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\i\GhostGameDomain\Debug\netstandard2.0\GhostGameDomain.csproj.CoreCompileInputs.cache
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\i\GhostGameDomain\Debug\netstandard2.0\GhostGameDomain.AssemblyInfoInputs.cache
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\i\GhostGameDomain\Debug\netstandard2.0\GhostGameDomain.AssemblyInfo.cs
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\i\GhostGameDomain\Debug\netstandard2.0\GhostGameDomain.csproj.CopyComplete
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\i\GhostGameDomain\Debug\netstandard2.0\GhostGameDomain.dll

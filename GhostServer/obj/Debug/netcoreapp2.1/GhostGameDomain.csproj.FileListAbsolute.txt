@@ -1,0 +1,9 @@
+C:\proyectos\Ghost\GhostWebserver\GhostServer\bin\Debug\netcoreapp2.1\GhostGameDomain.deps.json
+C:\proyectos\Ghost\GhostWebserver\GhostServer\bin\Debug\netcoreapp2.1\GhostGameDomain.dll
+C:\proyectos\Ghost\GhostWebserver\GhostServer\bin\Debug\netcoreapp2.1\GhostGameDomain.pdb
+C:\proyectos\Ghost\GhostWebserver\GhostServer\obj\Debug\netcoreapp2.1\GhostGameDomain.csprojAssemblyReference.cache
+C:\proyectos\Ghost\GhostWebserver\GhostServer\obj\Debug\netcoreapp2.1\GhostGameDomain.csproj.CoreCompileInputs.cache
+C:\proyectos\Ghost\GhostWebserver\GhostServer\obj\Debug\netcoreapp2.1\GhostGameDomain.AssemblyInfoInputs.cache
+C:\proyectos\Ghost\GhostWebserver\GhostServer\obj\Debug\netcoreapp2.1\GhostGameDomain.AssemblyInfo.cs
+C:\proyectos\Ghost\GhostWebserver\GhostServer\obj\Debug\netcoreapp2.1\GhostGameDomain.dll
+C:\proyectos\Ghost\GhostWebserver\GhostServer\obj\Debug\netcoreapp2.1\GhostGameDomain.pdb

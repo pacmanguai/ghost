@@ -1,0 +1,7 @@
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\b\GhostWebserver2\bin\App_Data\gosthGameDict.txt
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\b\GhostWebserver2\bin\GhostWebserver.dll.config
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\b\GhostWebserver2\bin\GhostWebserver.dll
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\i\GhostWebserver\Debug\GhostWebserver.csproj.CoreCompileInputs.cache
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\i\GhostWebserver\Debug\GhostWebserver.csproj.CopyComplete
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\i\GhostWebserver\Debug\GhostWebserver.dll
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\i\GhostWebserver\Debug\GhostWebserver.csprojAssemblyReference.cache

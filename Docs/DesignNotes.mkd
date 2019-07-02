@@ -1,0 +1,33 @@
+#Design Notes
+
+- For simplicity, I have used a .net framework template for the project.
+
+- The data structure that better fix the necessities of this problem is a trie (https://en.wikipedia.org/wiki/Trie). It's a structure in the shape of a tree of hash/dictionaries. There are different implementations for this structure in .net (sample: https://archive.codeplex.com/?p=trienet), but in this case i've implemented one simple example. I have used http://www.softwarematters.org/optimal-ghost.html as a base for the algorithm implementation.
+
+- I have had some problems with intializing the session. The solution was found in https://stackoverflow.com/questions/218057/httpcontext-current-session-is-null-when-routing-requests.
+
+- The web project is based in a MVC pattern, with a Web Api Controller as interface of the server side.
+	* It doesn't implement any model because the status of the application is maintained through object instances in the server context (HttpContext.Current). 
+	* The dictionary is stored in the cache, because is thread safe and can be shared for different iterations of the game. 
+	* The game status is stored in session. In this version, all the game object is saved, including the dicionary, but in a better version, we should save only the game status.
+
+- The logical structure is divided in differents folders:
+	* Documentation: documentation of the project.
+	* Domain layer: services and POCO objects. All the objects that don't have direct relationships with the UI and the game flow.
+	* Frontend layer: web server implementations including: dependent code, html pages, scripts, css, ...
+	* Test: In this layer, in different projects we find the tests of the application code. In this case these tests are not running at all and are included as a guide (a minimum tdd), but in this case the requeriments of time impose a more direct development.
+
+- Server code is share between two different libraries in order to get a better organization:
+	* GhostGameDomain: The kind of simple objects that not are in relationships with the operation of the game (like POCO).
+	* GhostGameEntities: There are objects that dependeds on implementation or affect to the game working.
+
+- Pending tasks
+    * The main pending task is doing a complete testing of the funcionallity, including automatic test to check the correct working of the game algorithm that i have not test correctly.
+	* Add UML scheme for the project.
+	* Add an funcional spinner for the async methods in js.	
+	* Refine the documentation in Markdown format.
+	* Complete the automatic Rest API documentation for the GhostController.
+	* An interesting inprovement would be inject the service GhostGame, to let the options of inject different versions of the game in base a user selection.
+	* Add logs for statistics and errors, and show information about that in UI.
+	* Add a functional UI help.
+

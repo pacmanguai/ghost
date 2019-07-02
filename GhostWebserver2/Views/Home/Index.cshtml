@@ -1,0 +1,77 @@
+﻿<div class="jumbotron">
+    <h1>Ghost Game</h1>
+    <h1>¿Estás preparado?</h1>
+</div>
+<div class="row">
+    <div class="col-md-4">
+       
+        <div id="game" title="Game dialog Form">
+
+            <!-- Main form -->
+            <form id="gameform" action="" method="post">
+                <div class="d-inline-block">
+                    <h3 class="d-inline">Hola</h3>
+                    <input id="name" class="d-inline" name="name" type="text" title="Puedes intrudicr un nombre si lo deseas">
+                    <button id="btnBegin" class="btn btn-primary d-inline" type="button" data-toggle="collapse" data-target="#gameBody" aria-expanded="false" aria-controls="gameBody">
+                        ¡Comencemos!
+                    </button>
+                </div>
+                <div class="collapse" id="gameBody">
+                    <div class="well">
+                        <h3>¿Te apetece una partida al juego de la plabra fantasma?</h3>
+                        <div class="spinner-border" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>                        
+                        <input id="word" name="word" type="text" title="Introduce una letra">
+                        <button id="btnReset" class="btn btn-primary btnReset" type="button">Reiniciar partida</button>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Result -->
+            <div id="results">
+                <div id="winner"><h2>¡Enhorabuena, has ganado!</h2></div>
+                <div id="loser"><h3>¡Lo siento, has perdido!</h3></div>
+                <button class="btn btn-primary btnReset" type="button">¿otra partida?</button>
+            </div>
+
+            <!-- Statistics -->
+            <div id="statistics">
+            </div>
+
+            <!-- Help buttom -->
+            <div id="help">
+                <br /><br />
+                <button id="btnHelp" class="btn btn-primary" type="button" data-toggle="modal" data-target="#exampleModal"
+                        title="Si necesitas ayuda sobre el juego...">
+                    Ayuda
+                </button>
+            </div>
+
+            <!-- Modal help -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Ayuda</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Cómo se juega al juego de la palabra fantasma...</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+
+     </div>
+
+</div>

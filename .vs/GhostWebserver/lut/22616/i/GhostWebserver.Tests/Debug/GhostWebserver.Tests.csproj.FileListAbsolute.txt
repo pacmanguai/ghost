@@ -1,0 +1,2 @@
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\i\GhostWebserver.Tests\Debug\GhostWebserver.Tests.csproj.CoreCompileInputs.cache
+C:\proyectos\Ghost\GhostWebServer\.vs\GhostWebServer\lut\0\i\GhostWebserver.Tests\Debug\GhostWebserver.Tests.csprojAssemblyReference.cache
